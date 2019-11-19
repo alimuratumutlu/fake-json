@@ -1,0 +1,28 @@
+{
+  "name": "json-muratson",
+  "version": "1.0.0",
+  "description": "json server for my app projects",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muratumutlu/json-muratson.git"
+  },
+  "keywords": [
+    "json",
+    "server"
+  ],
+  "author": "Murat Umutlu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muratumutlu/json-muratson/issues"
+  },
+  "homepage": "https://github.com/muratumutlu/json-muratson#readme",
+  "dependencies": {
+    "json-server": "^0.15.1"
+  }
+}
