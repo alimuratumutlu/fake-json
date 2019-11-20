@@ -4,9 +4,11 @@
   "description": "json server for my app projects",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js"
+    "server-install": "npm install",
+    "client-install": "npm install --prefix frontend",
+    "backend": "nodemon server.js",
+    "frontend": " npm run start --prefix ./frontend",
+    "full": "concurrently \"npm run backend\" \"npm run frontend\""
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,11 @@
   },
   "homepage": "https://github.com/muratumutlu/json-muratson#readme",
   "dependencies": {
+    "concurrently": "^5.0.0",
+    "express": "^4.17.1",
     "json-server": "^0.15.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
   }
 }

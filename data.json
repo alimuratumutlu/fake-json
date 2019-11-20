@@ -2,7 +2,12 @@
     "posts":[
       {
         "id" : 0,
-        "title": "Deneme data",
+        "title": "Deneme data 1",
+        "content" : "My first content!"
+      },
+      {
+        "id" : 1,
+        "title": "Deneme data 2",
         "content" : "My first content!"
       }
     ],
